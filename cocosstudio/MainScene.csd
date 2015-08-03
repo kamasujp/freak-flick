@@ -6,7 +6,7 @@
       <ObjectData Name="Scene" ctype="GameNodeObjectData">
         <Size X="640.0000" Y="960.0000" />
         <Children>
-          <AbstractNodeData Name="Default" ActionTag="-620272433" Tag="5" IconVisible="False" ObjectIndex="3" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Default" ActionTag="-620272433" Tag="5" IconVisible="False" ctype="SpriteObjectData">
             <Size X="640.0000" Y="960.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="320.0000" Y="480.0000" />
@@ -15,6 +15,18 @@
             <PrePosition X="0.5000" Y="0.5000" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="HelloWorld.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Text_1" ActionTag="-739944221" Tag="3" IconVisible="False" LeftMargin="277.0000" RightMargin="272.0000" TopMargin="539.5000" BottomMargin="397.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="91.0000" Y="23.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="322.5000" Y="409.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5039" Y="0.4260" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
