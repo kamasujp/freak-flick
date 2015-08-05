@@ -5,6 +5,24 @@
       <RootFolder Name=".">
         <Project Name="MainScene.csd" Type="Scene" />
         <Image Name="HelloWorld.png" />
+        <Image Name="battle_bottom.png" />
+        <Image Name="battle_top_fade.png" />
+        <Image Name="barrior.png" />
+        <Image Name="back_0.png" />
+        <Image Name="back_1.png" />
+        <Folder Name="cell">
+          <Image Name="cell_0.png" />
+          <Image Name="cell_1.png" />
+          <Image Name="cell_2.png" />
+          <Image Name="cell_3.png" />
+        </Folder>
+        <Image Name="white.png" />
+        <Image Name="enemy_gage.png" />
+        <Folder Name="enemy">
+          <Image Name="enemy_0.png" />
+          <Image Name="enemy_1.png" />
+          <Image Name="enemy_2.png" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

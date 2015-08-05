@@ -31,7 +31,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
         director->setOpenGLView(glview);
     }
 
-    director->getOpenGLView()->setDesignResolutionSize(640, 960, ResolutionPolicy::SHOW_ALL);
+    
+    director->getOpenGLView()->setDesignResolutionSize(750, 1334, ResolutionPolicy::SHOW_ALL);
 
     // turn on display FPS
     director->setDisplayStats(true);
@@ -40,6 +41,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
 
     FileUtils::getInstance()->addSearchPath("res");
+    FileUtils::getInstance()->addSearchPath("res/ball");
+    FileUtils::getInstance()->addSearchPath("res/cell");
+    FileUtils::getInstance()->addSearchPath("res/enemy");
 
     // create a scene. it's an autorelease object
     auto scene = HelloWorld::createScene();
